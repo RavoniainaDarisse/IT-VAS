@@ -58,7 +58,7 @@ const Login = () => {
   // };
 
   return (
-    <div className="min-h-screen md:px-[10%] flex md:flex-row flex-col md:my-0 my-5">
+    <div className="min-h-screen px-[10%] flex md:flex-row flex-col md:my-0 my-5">
     {loading && (
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/30 backdrop-blur-sm">
         <div className="flex flex-col items-center gap-4 p-8 shadow-lg bg-white/20 rounded-xl">
@@ -102,7 +102,7 @@ const Login = () => {
     </div>
 
     {/* Section droite - Formulaire LOGIN */}
-    <div className="flex items-center justify-center flex-1 px-10 mt-12 md:px-20">
+    <div className="flex items-center justify-center flex-1 px-20 mt-12">
       <div className="w-full max-w-md">
         <h2 className="mb-12 text-3xl text-black special-font">Connexion à votre espace bourse</h2>
         <form onSubmit={handleSubmit} className="space-y-8">

@@ -47,7 +47,7 @@ const Register = () => {
   
 
   return (
-    <div className="min-h-screen md:px-[10%] text-black flex md:flex-row flex-col md:my-0 my-5">
+    <div className="min-h-screen px-[10%] text-black flex md:flex-row flex-col md:my-0 my-5">
 
       {loading && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/30 backdrop-blur-sm">
@@ -87,7 +87,7 @@ const Register = () => {
       </div>
 
       {/* SECTION DROITE – Formulaire */}
-      <div className="flex items-center justify-center flex-1 px-10 mt-12 md:px-20">
+      <div className="flex items-center justify-center flex-1 px-20 mt-12">
         <div className="w-full max-w-md">
 
           <h2 className="mb-12 text-3xl">Inscription à votre espace bourse</h2>
@@ -174,7 +174,7 @@ const Register = () => {
               </button>
 
               {error && (
-                <p className="mt-4 text-sm text-red-600">
+                <p className="text-sm text-red-600 mt-4">
                   {error}
                 </p>
               )}
